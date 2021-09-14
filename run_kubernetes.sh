@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# This tags and uploads an image to Docker Hub
+# This script runs kubernetes locally
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=szyborski/ml-api
+dockerpath="szyborski/ml-api"
 
 # Step 2
 # Run the Docker Hub container with kubernetes

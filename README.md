@@ -65,7 +65,13 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ### Kubernetes Steps
 
 * To set up Docker use following tutorial: `https://docs.docker.com/desktop/`
+(if using windows use Chocolatey and run `choco install docker` in elevated shell)
 * To set up Kubernetes use following tutorial: `https://kubernetes.io/docs/tasks/tools/install-kubectl/`
+(if using windows use Chocolatey and run `choco install kubectl` in elevated shell)
 * To set up Minikube use following tutorial: `https://kubernetes.io/docs/tasks/tools/install-minikube/`
-* Run `minikube start` to create a Kubernetes cluster
-* Run `kubectl config view` to ensure the cluster is running properly
+(if using windows use Chocolatey and run `choco install minicube` in elevated shell)
+* (In the shell) run `minikube start` to create a Kubernetes cluster
+* (In the shell) run `kubectl config view` to ensure the cluster is running properly
+* (In the shell) run `kubectl config view` to ensure the cluster is running properly
+* Run (tn the shell) run `minikube stop` to stop a Kubernetes cluster
+* Finally run (tn the shell) run `minikube delete` to delete a Kubernetes cluster

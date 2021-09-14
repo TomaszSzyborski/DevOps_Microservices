@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=ml-api .
+docker image build --tag=ml-api .
 
 # Step 2:
 # List docker images
